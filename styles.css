@@ -9,30 +9,52 @@ h1 {
   line-height: 2;
   font-size: 90px;
   margin-top: 100px;
-font-family: 'East Sea Dokdo', cursive;
+  font-family: 'East Sea Dokdo', cursive;
 }
 
-h2{
+h2 {
   color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
   font-weight: normal;
+  padding-bottom: 10px;
 }
-h3{
+
+h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
 }
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
 .top-container {
   background-color: #E4F9F5;
   position: relative;
   padding-top: 100px;
 }
-.middle-container{
 
+.middle-container {
+  margin: 100px 0 0 0;
 }
-.bottom-container{
 
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
 }
+
 .A {
   text-decoration: underline;
 }
@@ -40,11 +62,73 @@ h3{
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
+
+.skill-row1 {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.Research {
+  width: 25%;
+  float: left;
+  margin-right: 50px;
+}
+
+.chess {
+  width: 25%;
+  float: right;
+  margin-left: 10px;
+}
+
+.boy {
+  width: 10%
+}
+
+.contact-me {
+  padding: 50px;
+}
+
+.btn {
+  margin: 100px auto;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11993);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11993);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11993);
+  background-image: -o-linear-gradient(top, #11cdd4, #11993);
+  background-image: linear-gradient(to bottom, #11cdd4, #11993);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #30e3ce;
+  background-image: -webkit-linear-gradient(top, #30e3ce, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3ce, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3ce, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3ce, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3ce, #2bc4ad);
+  text-decoration: none;
+}
+  
